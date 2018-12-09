@@ -1,0 +1,37 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .footer-column {
+    .footer-item {
+      padding: 0 0 0 20px;
+      line-height: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      border: 0;
+      .footer-item-link {
+        display: block;
+      }
+      &:before {
+        content: '';
+        transition: all 0.5s;
+        position: absolute;
+        top: 17px;
+        left: 0;
+        transform: rotate(45deg);
+        border-right: 2px solid;
+        border-top: 2px solid;
+        width: 7px;
+        height: 7px;
+      }
+      &:hover {
+        &:before {
+          left: 5px;
+        }
+      }
+    }
+  }
+  .headTitle-content {
+    margin-bottom: 30px;
+  }
+}

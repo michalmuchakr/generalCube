@@ -1,0 +1,29 @@
+.tech {
+  margin-top: 130px;
+  padding-bottom: 75px;
+  .general-sub-title {
+    margin-top: 120px;
+  }
+  .tech_title {
+    margin-bottom: 40px;
+  }
+  .tech__card {
+    margin-top: 20px;
+    border: 2px solid #3f3a34;
+    .tech__card-title {
+      position: absolute;
+      top: -17px;
+      left: 9px;
+      padding: 5px 10px;
+      background: white;
+    }
+  }
+  .tech__center-img {
+    @media screen and (max-width: 425px) {
+      img {
+        margin: 40px auto;
+        max-width: 200px;
+      }
+    }
+  }
+}
